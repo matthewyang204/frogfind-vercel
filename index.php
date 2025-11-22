@@ -4,6 +4,7 @@ require_once('vendor/autoload.php');
 $show_results = FALSE;
 $results_html = "";
 $final_result_html = "<hr>";
+$error_text = "";
 
 if(isset( $_GET['q'])) { // if there's a search query, show the results for it
     $query = urlencode($_GET["q"]);
