@@ -31,7 +31,7 @@
     "conf"
   ],
   "dependencies": {
-    "@libphp/amazon-linux-2-v83": ">=0.0.11"
+    "@libphp/amazon-linux-2-v83": ">=0.0.14"
   },
   "devDependencies": {
     "@types/glob": "8.1.0",
