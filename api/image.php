@@ -1,1 +1,1 @@
-C:/Users/Matthew Yang/Documents/GitHub/frogfind-vercel/image.php
+../image.php

@@ -1,1 +1,1 @@
-C:/Users/Matthew Yang/Documents/GitHub/frogfind-vercel/read.php
+../read.php
