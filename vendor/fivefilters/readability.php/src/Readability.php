@@ -1,7 +1,4 @@
 <?php
-// Get rid of warnings
-error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
-ini_set('display_errors', '0');
 
 namespace fivefilters\Readability;
 
@@ -14,6 +11,10 @@ use Psr\Log\LoggerInterface;
 use Masterminds\HTML5;
 use League\Uri\Http;
 use League\Uri\UriResolver;
+
+// Get rid of warnings
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
+ini_set('display_errors', '0');
 
 /**
  * Class Readability.
