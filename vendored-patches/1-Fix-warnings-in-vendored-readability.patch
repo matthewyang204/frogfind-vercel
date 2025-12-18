@@ -1,0 +1,60 @@
+From 5b094f7dd1bbc704daec0146bd31d36027e25151 Mon Sep 17 00:00:00 2001
+From: Matthew Yang <matthew.yang204@gmail.com>
+Date: Wed, 17 Dec 2025 19:12:24 -0800
+Subject: [PATCH 1/2] Modify vendored Readability to remove all warnings
+
+---
+ vendor/fivefilters/readability.php/src/Readability.php | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/vendor/fivefilters/readability.php/src/Readability.php b/vendor/fivefilters/readability.php/src/Readability.php
+index a070c6a..858a3e6 100644
+--- a/vendor/fivefilters/readability.php/src/Readability.php
++++ b/vendor/fivefilters/readability.php/src/Readability.php
+@@ -1,4 +1,7 @@
+ <?php
++// Get rid of warnings
++error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
++ini_set('display_errors', '0');
+ 
+ namespace fivefilters\Readability;
+ 
+-- 
+2.52.0.windows.1
+
+From f606d25cb4339760c7870308f556554fc2244bff Mon Sep 17 00:00:00 2001
+From: Matthew Yang <matthew.yang204@gmail.com>
+Date: Wed, 17 Dec 2025 19:14:18 -0800
+Subject: [PATCH 2/2] Move to after requiring stuff and most importantly,
+ namespace
+
+---
+ vendor/fivefilters/readability.php/src/Readability.php | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/vendor/fivefilters/readability.php/src/Readability.php b/vendor/fivefilters/readability.php/src/Readability.php
+index 858a3e6..2d3133f 100644
+--- a/vendor/fivefilters/readability.php/src/Readability.php
++++ b/vendor/fivefilters/readability.php/src/Readability.php
+@@ -1,7 +1,4 @@
+ <?php
+-// Get rid of warnings
+-error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
+-ini_set('display_errors', '0');
+ 
+ namespace fivefilters\Readability;
+ 
+@@ -15,6 +12,10 @@ use Masterminds\HTML5;
+ use League\Uri\Http;
+ use League\Uri\UriResolver;
+ 
++// Get rid of warnings
++error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
++ini_set('display_errors', '0');
++
+ /**
+  * Class Readability.
+  */
+-- 
+2.52.0.windows.1
+
