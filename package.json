@@ -1,13 +1,13 @@
 {
-  "name": "vercel-php",
-  "description": "Vercel PHP runtime",
-  "version": "0.7.4",
-  "license": "MIT",
+  "name": "frogfind",
+  "description": "The Search Engine for Vintage Computers",
+  "version": "1.2.0",
+  "license": "GPL-3.0-or-later",
   "main": "./dist/index.js",
-  "homepage": "https://github.com/vercel-community/php",
+  "homepage": "https://github.com/mattthewyang204/frogfind-vercel",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vercel-community/php.git"
+    "url": "https://github.com/mattthewyang204/frogfind-vercel.git"
   },
   "keywords": [
     "vercel",
