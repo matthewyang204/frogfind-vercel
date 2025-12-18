@@ -89,6 +89,7 @@ function clean_str($str) {
     <br><br><br>
     <small><center>Built by <b><a href="https://youtube.com/ActionRetro">Action Retro</a></b> on YouTube | <a href="about.php">Why build such a thing?</a></center><br>
     <small><center>Powered by DuckDuckGo</center></small>
+    <small><center>v1.2</center></small>
 </form>
 </form>
 
