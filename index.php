@@ -79,7 +79,7 @@ function clean_str($str) {
     
 <?php } else { // no search query, so show new search ?>
     <br><br><center><h1><font size=7><font color="#008000">Frog</font>Find!</font></h1></center>
-    <center><img src="assets/frogfind.gif" alt="FrogFind logo" style="margin: 10px 0;"></center>
+    <center><img src="assets/frogfind.gif" alt="a pixelated cartoon graphic of a fat, lazy, unamused frog with a keyboard in front of them, awaiting your search query" style="margin: 10px 0;"></center>
     <center><h3>The Search Engine for Vintage Computers</h3></center>
     <br><br>
     <center>
