@@ -124,7 +124,7 @@ export const build: BuildV3 = async ({
       ...runtimeFiles
     },
     handler: 'launcher.launcher',
-    runtime: nodeVersion.runtime,
+    runtime: `nodejs${nodeVersion}`,
     environment: {
       NOW_ENTRYPOINT: entrypoint,
       NOW_PHP_DEV: meta.isDev ? '1' : '0'
