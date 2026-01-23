@@ -11,8 +11,6 @@
   },
   "keywords": [
     "vercel",
-    "zeit",
-    "now",
     "php",
     "builder",
     "runtime",
@@ -31,7 +29,7 @@
     "conf"
   ],
   "dependencies": {
-    "@libphp/amazon-linux-2-v83": ">=0.0.11"
+    "@libphp/almalinux-9-v85": ">=0.0.2"
   },
   "devDependencies": {
     "@types/glob": "8.1.0",
