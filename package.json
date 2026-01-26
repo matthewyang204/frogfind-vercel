@@ -29,7 +29,7 @@
     "conf"
   ],
   "dependencies": {
-    "@libphp/almalinux-9-v85": ">=0.0.2"
+    "@libphp/almalinux-9-v85": ">=0.0.3"
   },
   "devDependencies": {
     "@types/glob": "8.1.0",
