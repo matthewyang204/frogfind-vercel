@@ -1,0 +1,12 @@
+# Node
+/node_modules
+/package-lock.json
+
+# App
+/dist
+
+# Vercel
+.vercel
+
+# macOS junk
+.DS_Store
