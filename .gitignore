@@ -7,3 +7,6 @@
 
 # Vercel
 .vercel
+
+# macOS junk
+.DS_Store
